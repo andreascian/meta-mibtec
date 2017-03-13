@@ -1,12 +1,13 @@
-FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-4.1:"
+FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}-4.4:"
 
-KERNEL_DEVICETREE_ti43x = "am437x-misdimm-evm.dtb am437x-mispanel070f.dtb \
-			am437x-mispanel070h.dtb am437x-mispanel070g.dtb \
+KERNEL_DEVICETREE_ti43x = "am437x-misdimm-evm.dtb \
+			am437x-mispanel070f.dtb \
+			am437x-mispanel070h.dtb \
 			am437x-mispanel120b.dtb"
 
-SRCREV = "da52d03604f6fb0fd9d9bb8d90e42fe5be93e9f1"
-PV = "4.1.18"
-BRANCH = "mis-4.1.y"
+SRCREV = "e4cacbb88a2a177bac9858fc39b536ca2402c713"
+PV = "4.9.0"
+BRANCH = "mis-4.9.y"
 
 KERNEL_GIT_URI = "git://github.com/rob-w/mibtec-kernel"
 KERNEL_GIT_PROTOCOL = "git"
